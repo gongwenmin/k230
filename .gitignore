@@ -28,6 +28,8 @@ secrets.json
 .agents/
 .codex/
 .git-work/
+.git-upload/
+gcm-diagnose.log
 
 # Editor and OS files
 .vscode/
