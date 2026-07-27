@@ -1,0 +1,36 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Credentials and private material
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials.json
+secrets.json
+
+# Local Codex/agent metadata
+.agents/
+.codex/
+.git-work/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
